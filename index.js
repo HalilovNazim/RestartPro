@@ -3808,10 +3808,10 @@
             return console.error(t)
         }))
     }
-    document.addEventListener("DOMContentLoaded", (function () {
+    document.addEventListener("DOMContentLoaded", (() => {
         document.querySelector(".menu-icon").addEventListener("click", st), document.querySelector(".menu-mobile__close-icon").addEventListener("click", ct);
         var t = document.querySelectorAll(".menu-mobile__link");
-        Array.from(t).forEach((function (t) {
+        Array.from(t).forEach(((t) => {
             t.addEventListener("click", lt)
         })), document.querySelector("#form").addEventListener("submit", ht);
         var e = document.querySelector("#input-phone");
